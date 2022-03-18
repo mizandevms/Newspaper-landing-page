@@ -1,20 +1,25 @@
-figure{
+header {
+  figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    img{
-        height: 65px;
-        width: 260px;
-        object-fit: contain;
-        margin: 0 auto;
+
+    img {
+      height: 65px;
+      width: 260px;
+      object-fit: contain;
+      margin: 0 auto;
     }
+  }
 }
+
 @media only screen and (max-width: 600px) {
+  header {
     figure {
-        img {
-            height: 45px;
-            width: 260px;
+      img {
+        height: 45px;
+        width: 260px;
       }
     }
   }
+}
